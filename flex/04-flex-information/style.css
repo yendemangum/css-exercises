@@ -5,12 +5,37 @@ body {
 img {
   width: 100px;
   height: 100px;
+  flex: auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 16px;
 }
+
+.large {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  align-items: center;
+ }
 
 /* do not edit this footer */
 .footer {
